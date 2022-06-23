@@ -1,4 +1,4 @@
-﻿namespace SingletonLib
+﻿namespace Singleton_Multiton
 {
     public class Singleton
     {

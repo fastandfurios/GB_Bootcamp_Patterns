@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FactoryMethod\Factory_method.csproj" />
     <ProjectReference Include="..\SingletonLib\Singleton_Multiton.csproj" />
   </ItemGroup>
 

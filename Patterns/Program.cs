@@ -24,3 +24,5 @@ storeGrocery.SaleGood();
 IStoreFactory storeFactoryWear = new WearStoreFactory();
 var storeWear = storeFactoryWear.CreateStore();
 storeWear.SaleGood();
+
+//***********************************************

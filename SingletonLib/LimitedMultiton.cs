@@ -3,11 +3,12 @@
     public class LimitedMultiton
     {
         private static Dictionary<Enum, LimitedMultiton> _instances = new();
-        private static LimitedMultiton _limitedMultitonInstance = null;
+        private static LimitedMultiton? _limitedMultitonInstance;
 
         public static LimitedMultiton Instance(Enum key)
         {
-            _limitedMultitonInstance = _instances[key];
+            _instances.TryGetValue(key, out _limitedMultitonInstance);
+
             if (_limitedMultitonInstance is null)
             {
                 _limitedMultitonInstance = new LimitedMultiton();

@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns", "Patterns\Patterns.csproj", "{973D23CC-D747-4AC7-80CD-0CA0DA0D859E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns", "Patterns\Patterns.csproj", "{973D23CC-D747-4AC7-80CD-0CA0DA0D859E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton_Multiton", "Singleton_Multiton", "{D2E93329-0E28-4F8F-935C-B261FC6D18A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton_Multiton", "SingletonLib\Singleton_Multiton.csproj", "{0EBBC9E5-3D77-4395-A967-6AF57A096BB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton_Multiton", "SingletonLib\Singleton_Multiton.csproj", "{0EBBC9E5-3D77-4395-A967-6AF57A096BB9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory_method", "Factory_method", "{D1492210-DEB1-4EB1-90E2-7F5304BC4F23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory_method", "FactoryMethod\Factory_method.csproj", "{3830FD42-8947-4BB3-BDC4-5035C7939082}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory_method", "FactoryMethod\Factory_method.csproj", "{3830FD42-8947-4BB3-BDC4-5035C7939082}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{FF43B7E0-82D7-41CA-BB57-51F669713B2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder_pattern", "Builder_pattern\Builder_pattern.csproj", "{BE20D187-3E5B-4376-985F-42A6324A1F5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyBuilder", "EasyBuilder\EasyBuilder.csproj", "{253480F3-38EA-40BB-98E3-565E4F94872D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +37,14 @@ Global
 		{3830FD42-8947-4BB3-BDC4-5035C7939082}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3830FD42-8947-4BB3-BDC4-5035C7939082}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3830FD42-8947-4BB3-BDC4-5035C7939082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE20D187-3E5B-4376-985F-42A6324A1F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE20D187-3E5B-4376-985F-42A6324A1F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE20D187-3E5B-4376-985F-42A6324A1F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE20D187-3E5B-4376-985F-42A6324A1F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{253480F3-38EA-40BB-98E3-565E4F94872D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253480F3-38EA-40BB-98E3-565E4F94872D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253480F3-38EA-40BB-98E3-565E4F94872D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253480F3-38EA-40BB-98E3-565E4F94872D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +52,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0EBBC9E5-3D77-4395-A967-6AF57A096BB9} = {D2E93329-0E28-4F8F-935C-B261FC6D18A6}
 		{3830FD42-8947-4BB3-BDC4-5035C7939082} = {D1492210-DEB1-4EB1-90E2-7F5304BC4F23}
+		{BE20D187-3E5B-4376-985F-42A6324A1F5A} = {FF43B7E0-82D7-41CA-BB57-51F669713B2B}
+		{253480F3-38EA-40BB-98E3-565E4F94872D} = {FF43B7E0-82D7-41CA-BB57-51F669713B2B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {904AEC09-BAFD-461C-A2CF-B5FDC2158E6C}

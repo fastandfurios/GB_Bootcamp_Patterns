@@ -1,4 +1,5 @@
-﻿using Singleton_Multiton;
+﻿using Builder_pattern;
+using Singleton_Multiton;
 using Factory_method;
 
 var singleton = Singleton.Instance();
@@ -26,3 +27,13 @@ var storeWear = storeFactoryWear.CreateStore();
 storeWear.SaleGood();
 
 //***********************************************
+
+var director = new Director();
+director.SetBuilder(new LightIndustrialUnitBuilder());
+
+var industrialUnit = director.BuildIndustrialUnit();
+
+Console.WriteLine(industrialUnit);
+
+director.SetBuilder(new HeavyIndustrialUnitBuilder());
+Console.WriteLine(director.BuildIndustrialUnit());

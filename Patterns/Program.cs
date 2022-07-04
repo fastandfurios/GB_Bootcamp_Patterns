@@ -11,3 +11,7 @@ Builder_pattern.MainClass.Run();
 //***********************************************
 
 ObjectPool.MainClass.Run();
+
+//***********************************************
+
+Adapter_Wrapper.MainClass.Run();

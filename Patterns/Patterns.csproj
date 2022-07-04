@@ -10,6 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Adapter_Wrapper\Adapter_Wrapper.csproj" />
     <ProjectReference Include="..\Builder_pattern\Builder_pattern.csproj" />
+    <ProjectReference Include="..\Decorator_pattern\Decorator_pattern.csproj" />
     <ProjectReference Include="..\EasyBuilder\EasyBuilder.csproj" />
     <ProjectReference Include="..\FactoryMethod\Factory_method.csproj" />
     <ProjectReference Include="..\ObjectPool\ObjectPool.csproj" />

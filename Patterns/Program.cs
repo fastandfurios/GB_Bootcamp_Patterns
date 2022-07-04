@@ -15,3 +15,7 @@ ObjectPool.MainClass.Run();
 //***********************************************
 
 Adapter_Wrapper.MainClass.Run();
+
+//***********************************************
+
+Decorator_pattern.MainClass.Run();

@@ -21,8 +21,6 @@ namespace ObjectPool
             reusablePool.Release(thisObject1);
             Thread.Sleep(2000);
             reusablePool.Release(thisObject2);
-
-            Console.ReadKey();
         }
 
         private static void ViewObject(Reusable thisObject)

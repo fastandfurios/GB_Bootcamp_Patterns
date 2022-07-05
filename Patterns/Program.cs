@@ -19,3 +19,7 @@ Adapter_Wrapper.MainClass.Run();
 //***********************************************
 
 Decorator_pattern.MainClass.Run();
+
+//***********************************************
+
+Facade_pattern.MainClass.Run();

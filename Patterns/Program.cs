@@ -27,3 +27,7 @@ Facade_pattern.MainClass.Run();
 //***********************************************
 
 Visitor_pattern.MainClass.Run();
+
+//***********************************************
+
+Observer_pattern.MainClass.Run();

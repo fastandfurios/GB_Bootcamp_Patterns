@@ -35,6 +35,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{2599D1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade_pattern", "Facade_pattern\Facade_pattern.csproj", "{456886F1-9449-457B-BCDE-42841BFEBA70}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visitor", "Visitor", "{DDA13AA2-EDF1-4E01-94EB-44377544D33E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor_pattern", "Visitor_pattern\Visitor_pattern.csproj", "{698BF55C-2978-40B0-975B-FFC1DA3801D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +81,10 @@ Global
 		{456886F1-9449-457B-BCDE-42841BFEBA70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{456886F1-9449-457B-BCDE-42841BFEBA70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{456886F1-9449-457B-BCDE-42841BFEBA70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{698BF55C-2978-40B0-975B-FFC1DA3801D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698BF55C-2978-40B0-975B-FFC1DA3801D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698BF55C-2978-40B0-975B-FFC1DA3801D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698BF55C-2978-40B0-975B-FFC1DA3801D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +98,7 @@ Global
 		{5A4DE519-C4AE-4A41-BC64-02AD48656A24} = {40C929C9-C617-497F-9266-3ECEBE248B1A}
 		{E49F5466-209A-4C96-9A81-DD2A7AA055FD} = {5865C7FE-CDA0-488A-9901-889DE422F36F}
 		{456886F1-9449-457B-BCDE-42841BFEBA70} = {2599D14C-64CA-46B7-8F04-18BF866C48C3}
+		{698BF55C-2978-40B0-975B-FFC1DA3801D2} = {DDA13AA2-EDF1-4E01-94EB-44377544D33E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {904AEC09-BAFD-461C-A2CF-B5FDC2158E6C}

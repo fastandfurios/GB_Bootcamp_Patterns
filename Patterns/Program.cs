@@ -23,3 +23,7 @@ Decorator_pattern.MainClass.Run();
 //***********************************************
 
 Facade_pattern.MainClass.Run();
+
+//***********************************************
+
+Visitor_pattern.MainClass.Run();

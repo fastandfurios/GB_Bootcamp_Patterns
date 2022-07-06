@@ -31,3 +31,7 @@ Visitor_pattern.MainClass.Run();
 //***********************************************
 
 Observer_pattern.MainClass.Run();
+
+//***********************************************
+
+ChainOfResponsibility.MainClass.Run();

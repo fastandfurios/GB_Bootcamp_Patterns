@@ -15,9 +15,12 @@
     <ProjectReference Include="..\EasyBuilder\EasyBuilder.csproj" />
     <ProjectReference Include="..\Facade_pattern\Facade_pattern.csproj" />
     <ProjectReference Include="..\FactoryMethod\Factory_method.csproj" />
+    <ProjectReference Include="..\Mediator_pattern\Mediator_pattern.csproj" />
     <ProjectReference Include="..\ObjectPool\ObjectPool.csproj" />
     <ProjectReference Include="..\Observer_pattern\Observer_pattern.csproj" />
     <ProjectReference Include="..\SingletonLib\Singleton_Multiton.csproj" />
+    <ProjectReference Include="..\State_pattern\State_pattern.csproj" />
+    <ProjectReference Include="..\Strategy_pattern\Strategy_pattern.csproj" />
     <ProjectReference Include="..\Visitor_pattern\Visitor_pattern.csproj" />
   </ItemGroup>
 

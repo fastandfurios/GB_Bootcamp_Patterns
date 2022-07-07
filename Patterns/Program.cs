@@ -35,3 +35,15 @@ Observer_pattern.MainClass.Run();
 //***********************************************
 
 ChainOfResponsibility.MainClass.Run();
+
+//***********************************************
+
+Mediator_pattern.MainClass.Run();
+
+//***********************************************
+
+Strategy_pattern.MainClass.Run();
+
+//***********************************************
+
+State_pattern.MainClass.Run();

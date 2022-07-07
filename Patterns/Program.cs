@@ -43,3 +43,7 @@ Mediator_pattern.MainClass.Run();
 //***********************************************
 
 Strategy_pattern.MainClass.Run();
+
+//***********************************************
+
+State_pattern.MainClass.Run();

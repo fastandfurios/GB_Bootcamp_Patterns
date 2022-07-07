@@ -39,3 +39,7 @@ ChainOfResponsibility.MainClass.Run();
 //***********************************************
 
 Mediator_pattern.MainClass.Run();
+
+//***********************************************
+
+Strategy_pattern.MainClass.Run();

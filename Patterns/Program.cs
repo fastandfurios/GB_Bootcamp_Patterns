@@ -35,3 +35,7 @@ Observer_pattern.MainClass.Run();
 //***********************************************
 
 ChainOfResponsibility.MainClass.Run();
+
+//***********************************************
+
+Mediator_pattern.MainClass.Run();

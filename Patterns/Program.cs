@@ -47,3 +47,11 @@ Strategy_pattern.MainClass.Run();
 //***********************************************
 
 State_pattern.MainClass.Run();
+
+//***********************************************
+
+Command_pattern.MainClass.Run();
+
+//***********************************************
+
+Iterator_pattern.MainClass.Run();
